@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  padding-left: 10px;
+  margin: 20px 20px 0 20px;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+.container input {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  outline: none;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  margin-right: 10px;
+  padding: 0 10px;
+  padding-right: 5px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  background-color: rgb(211, 211, 211);
+  white-space: nowrap;
+}
+
+.tag button {
+  display: flex;
+  padding: 6px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  color: black;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0 20px 20px 20px;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+.suggestions li {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+}
+
+li.suggestionActive {
+  background-color: rgb(211, 211, 211);
+}
+
+.noSuggestions {
+  margin: 20px;
+}
